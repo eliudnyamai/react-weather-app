@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Header from './components/Header';
 import WeatherDetails from './components/WeatherDetails';
 
-const API_KEY = 'zbNAbdOGA4Yg1zGGGSkWVA9GWIBbvluq';  
+const API_KEY = '';  
 
 function App() {
   const [cities, setCities] = useState([]);
