@@ -79,8 +79,8 @@ function App() {
             },
             {
               type: 'forecast',
-              data: forecastData.DailyForecasts[0] // Assuming the first object in the array is tomorrow's forecast
-            }
+              data: forecastData.DailyForecasts[0] 
+                        }
           ];
   
           setWeather(weatherData);
